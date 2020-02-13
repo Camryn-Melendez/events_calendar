@@ -1,1 +1,2 @@
-# events_calendar
+# Events Calendar
+
