@@ -1,0 +1,108 @@
+body {
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.events-register-form {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+h2 { 
+    width: 100%;
+    text-align: center;
+}
+
+.name,
+.event-name,
+.start,
+.end {
+    width: 49.5%;
+    display: inline-block;
+}
+
+
+.event-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+textarea,
+input {
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(218, 218, 218, 0.61);;
+}
+
+input {
+    height: 25px;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+    font: inherit;
+    font-size: 0.8em;
+}
+
+#name,
+#event-name,
+#start,
+#end {
+    width: 100%;
+    font: inherit;
+    font-size: 0.8em;
+}
+
+
+#submit {
+    border: none;
+    margin-top: 20px;
+}
+
+.event-listing {
+    background-color: rgba(218, 218, 218, 0.61);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+}
+
+.event-listing:hover,
+input:hover,
+textarea:hover {
+    background-color: rgba(190, 188, 188, 0.788);
+}
+
+.event-listing-subtitle {
+    font-style: italic;
+}
+
+.event-listing-description {
+    font-size: 1.1em;
+}
+
+.event-listing-time {
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgba(246, 255, 255, 0.753);
+    padding: 7px;
+}
+
+.submit-message {
+    text-align:center;
+    font-style: oblique;
+}
+
+
